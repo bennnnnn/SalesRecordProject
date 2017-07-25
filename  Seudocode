@@ -1,0 +1,48 @@
+		
+ 
+		 Declare name
+		declare sales amount variable that holds the sales amount
+		Declare taxDue variable that holds the tax
+		Declare taxNumber variable that holds  one of this numbers( 0, 1, 2)
+		Declare totalSales varibale that holds the sales and the tax
+		
+		Creat a scanner object for keyboard input
+			Prompt the user to enter the a name
+		       Accept the name
+		Prompt the user to enter sales amount. 
+		Accept sales amount
+		Prompt the user to enter a tax number(0,1,2).
+		Accept the tax number.
+		      if tax code ==0
+		             "tax exempt"
+		  else   if tax  code ==1
+		
+		          taxDue =salesAmount*3.0/100
+		 else  if taxcode==2
+		    taxDue ==salesAmount *5.0/100
+		
+		
+		else  If the tax code is not (0,1 or 2)
+		  tell customer they entered a wrong tax number
+		
+		totalsales = salesamount +taxDue;
+		print tax report with:
+		       name 
+		       sales amount
+		       tax amount
+		        total sale
+		       tax number as(0,1,2).
+    
+
+   :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ input                                                                                    output
+ ........................................................................................................
+ Name                                                                                    save name
+sales Amount                                                                     save sales amount
+tax number                                                                            save tax number
+0                                                                                                    "tax exempt"
+1                                                                                                      3.0/100 *salesAmount
+2                                                                                                      5.0/100 *salesAmount
+salesAmount +taxDue                                                      totalSale
+
+       
